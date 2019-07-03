@@ -36,9 +36,7 @@ lis
 # 3) 노드내에 text를 가져오기
 lis <- read_html(base_url) %>%
   html_nodes('.sub_book_list_area') %>%
-  html_nodes('li') %>%
-  html_text() %>%
-  data.frame()
+  html_nodes('li')
 lis
 
 for(li in lis) {

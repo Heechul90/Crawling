@@ -1,4 +1,4 @@
-### 네이버 평점 크롤링
+### 인피니티워 평점 (naver)
 
 
 nstall.packages("rvest")
