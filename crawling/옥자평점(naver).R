@@ -45,7 +45,7 @@ for(page in 1 : ceiling(18028/10)) {
 
 head(df_points)
 write.xlsx(df_points, 
-           'review.xlsx',
+           'review(naver).xlsx',
            col.names=TRUE,   # 변수이름을 그대로 사용
            row.names=FALSE)  # 행이름은 사용하지 않음
            
