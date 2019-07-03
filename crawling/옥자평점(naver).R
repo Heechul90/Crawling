@@ -25,7 +25,7 @@ ems <- read_html(base_url) %>%
 pages <- ems[2] %>% html_text()
 pages <- gsub(',', '', pages)
 pages <- as.numeric(pages)
-total_page <- ceiling(pages)
+total_page <- ceiling(pages/10)
 total_page
 
 #
