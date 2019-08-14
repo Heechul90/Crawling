@@ -55,7 +55,7 @@ for(dt in date) {
 }
 
 write.xlsx(news,
-           "news_crawling.xlsx", 
+           "news(naver).xlsx", 
            sheetName="news",
            col.names=TRUE,   
            row.names=FALSE)  
